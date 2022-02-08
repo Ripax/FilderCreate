@@ -147,7 +147,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "FolderCreation"))
-        self.label.setText(_translate("Form", "Spacel Name : "))
+        self.label.setText(_translate("Form", "Special name : "))
         self.checkBox_special_name.setText(_translate("Form", "enable"))
         self.final_Name_print.setText(_translate("Form", "TextLabel"))
         self.cancel.setText(_translate("Form", "Cancel"))
