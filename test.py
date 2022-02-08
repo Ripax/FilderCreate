@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#! /usr/bin/env python
 # author : Htmldigger
 # Date : 4thfeb2022
 # ## #####################################################
