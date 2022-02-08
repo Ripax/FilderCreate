@@ -1,3 +1,9 @@
+#! /usr/bin/env python
+# author : Htmldigger
+# Date : 4thfeb2022
+# ## #####################################################
+# Import Module here.
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QDateTime, Qt
 
