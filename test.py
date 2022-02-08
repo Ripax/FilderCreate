@@ -22,14 +22,20 @@ folder = today.strftime("%B_%d-%m-%Y_{x}_%H-%M-%S").format(x=uName)
 if uName == 'Rion':
     print("\033[1;32m************** Admin Panel **************")
     print(f"\nWelcome Back Admin.\nDate : {today}\n\n*****************************************\n")
-    print('Creating your woring directory...')
     try:
-        print(f'Hey {uName} welcome to HTMLDigger sucessfully created : {folder}')
+        print(f'Hello {uName} welcome to HTMLDigger-tools\n\nsucessfully created : {folder}')
         # os.makedirs(folder)
+        print('Creating your woring directory...')
+
     except OSError as e:
         if e.errno != errno.EEXIST:
             raise
     print("\033[0m\n")
-    print(folder)
+    print('import colored after that.........\n')
+    from colored import fg
+    fg_blue_color = fg('blue')
+    fg_yellow_color = fg('yellow')
+    print (fg_blue_color + 'Hello World !!!')
+    print(fg_yellow_color + folder + '\n')
 else:
     print(f'Hey {uName} welcome to HTMLDigger world.')
