@@ -37,5 +37,7 @@ if uName == 'Rion':
     fg_yellow_color = fg('yellow')
     print (fg_blue_color + 'Hello World !!!')
     print(fg_yellow_color + folder + '\n')
+    print('\x1b[6;30;42m' + 'Success!\nWork uploaded.' + '\x1b[0m')
+
 else:
     print(f'Hey {uName} welcome to HTMLDigger world.')
